@@ -1,0 +1,37 @@
+.header{
+    background-color: burlywood;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 30px;
+    font-family: 'Roboto';
+   font-size: 18px;
+   
+}
+.logo{
+    font-family: 'Roboto';
+    color: rgb(164, 164, 7);
+    font-size: 30px;
+}
+span{
+    color: green;
+}
+.home{
+    padding: 10px;
+    border: 2px solid brown;
+}
+.icon{
+color: red;
+
+}
+.menu a:hover{
+    border-bottom: 2px solid green;
+}

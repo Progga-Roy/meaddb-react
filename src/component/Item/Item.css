@@ -1,0 +1,16 @@
+.mealItem p{
+   text-transform: uppercase;
+   font-size: 17px;
+  border-bottom: 2px solid rgb(140, 197, 55);
+    
+}
+.mealItem img{
+    width: 200px;
+}
+.mealItem{
+    width: 250px;
+    height: 200px;
+  
+    margin-left: 20px;
+   
+}

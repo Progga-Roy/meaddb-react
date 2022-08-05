@@ -6,3 +6,7 @@
 display: grid;
 grid-template-columns:repeat(3 , 1fr) ;
 }
+.show-meal-container h2{
+    margin-top: 100px;
+    color: darkgreen;
+}

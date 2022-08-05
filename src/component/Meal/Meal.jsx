@@ -21,7 +21,7 @@ const Meal = (props) => {
             <p className='description'>{strCategoryDescription.slice(0,200)}</p>
            <div className='detail'>
            <p>Price: $450</p>
-           <button onClick={()=>seeItemHandler(props.items)}>See Items</button>
+           <button onClick={()=>seeItemHandler(props.meal)}>See Items</button>
            <p> <FontAwesomeIcon icon={faHeart} onClick={()=>clickLikedBtn} id="heart"></FontAwesomeIcon > </p>
            </div>
            </div>

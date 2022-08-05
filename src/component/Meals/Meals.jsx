@@ -6,7 +6,7 @@ import Item from '../Item/Item';
 
 const Meals = () => {
     const [meals,setMeals]= useState([])
-    const [item ,setItem] =useState(0)
+    const [item ,setItem] =useState([])
     // const [increase,setIncrease] = useState([])
     // // const increaseHandler =(id)=>{
     // //  const addLiked =[...increase,id]
@@ -19,8 +19,8 @@ const Meals = () => {
         
     },[])
 
-    const seeItemHandler =(items)=>{
-        const newItem= [...item,items]
+    const seeItemHandler =(meal)=>{
+        const newItem= [...item,meal]
          setItem(newItem)
     }
     return (
@@ -28,14 +28,14 @@ const Meals = () => {
            
              <div className="meal-container">
                 {
-                  meals.map(meal =><Meal meal={meal} key={meal.idCategory}seeItemHandler={seeItemHandler} ></Meal>)  
+                  meals.map(meal =><Meal meal={meal} key={meal.idCategory} seeItemHandler={seeItemHandler} ></Meal>)  
                 }
              </div>
              
              <div className="show-meal-container">
-                <h1>Component</h1>
+               <h2> Food Item</h2>
                 {
-                    item.map(singleItem=> <Item singleItem={singleItem}></Item>)
+                   item.map(mealItem =><Item mealItem={mealItem}></Item>)
                 }
 
              </div>

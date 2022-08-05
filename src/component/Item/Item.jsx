@@ -1,11 +1,14 @@
 import React from 'react';
+import './Item.css'
 
 const Item = (props) => {
-    const {strCategory,strCategoryThumb} =props.singleItem
+  
+    const {strCategory,strCategoryThumb} = props.mealItem
     return (
-        <div>
-            <img src={strCategory} alt="" />
-            <p>{strCategoryThumb}</p>
+        <div className='mealItem'>
+            <img src={strCategoryThumb} alt="" />
+        
+            <p>{strCategory}</p>
         </div>
     );
 };

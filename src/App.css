@@ -40,4 +40,5 @@
 body{
  background-color: lemonchiffon; 
  font-family: 'Roboto';
+ overflow-x: hidden;
 }

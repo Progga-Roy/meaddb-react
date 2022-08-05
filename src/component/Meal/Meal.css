@@ -1,4 +1,48 @@
 .meal-div{
-    width: 380px;
-    height: 380px;
+    width: 350px;
+    height: 420px;
+    border: 1px solid greenyellow;
+    margin-top: 100px;
+    background-color: palegoldenrod;
+    margin-left: 30px;
+    box-shadow: 2px 2px 5px rgb(76, 76, 76);
+}
+.meal-div img{
+    margin-top: 7px;
+}
+.meal p{
+    margin: 7px;
+}
+.name{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+.description{
+   text-align: center;
+   padding: 10px;
+   letter-spacing: 1px;
+   font-size: 16px;
+  
+}
+.detail{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+   font-weight: bold;
+   font-size: 17px;
+}
+
+.detail button{
+    padding: 8px;
+    background-color: rgb(65, 125, 95);
+    color: white;
+    font-style: 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
 }

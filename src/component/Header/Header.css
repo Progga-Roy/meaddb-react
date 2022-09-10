@@ -16,19 +16,21 @@
     margin-right: 30px;
     font-family: 'Roboto';
    font-size: 18px;
-   color: rgb(115, 116, 11);
+   color: rgb(89, 91, 6);
+   text-transform: uppercase;
+   font-weight: bold;
    
 }
 .logo{
     font-family: 'Roboto';
-    color: rgb(164, 164, 7);
+    color: rgb(125, 125, 14);
     font-size: 30px;
 }
 span{
     color: green;
 }
 .home{
-    padding: 10px;
+    padding: 8px 12px ;
     border: 2px solid green;
 }
 .icon{
@@ -37,5 +39,6 @@ color: red;
 }
 .menu a:hover{
    color: green;
+   /* border: 2px solid green; */
 
 }

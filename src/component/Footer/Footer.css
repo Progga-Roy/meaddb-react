@@ -1,59 +1,76 @@
-.footer{
+.footer {
     margin-top: 150px;
     width: 100%;
-    background-color:rgb(237, 248, 177);
+    /* background-color: rgb(237, 248, 177); */
+    background-color: rgb(228, 228, 167);
     padding: 20px;
+    margin-bottom: 20px;
 }
+
 /* .footer p{
     text-transform: uppercase;
 } */
-.footer2{
-   background-color: rgb(228, 228, 167);
-   width: 90%;
-   margin: 0 auto;
-  
+.footer2 {
+    /* background-color: rgb(228, 228, 167); */
+    background-color: rgb(237, 248, 177);
+    width: 90%;
+    margin: 0 auto;
+
 
 }
-.span-color{
-    color: rgb(164, 164, 7);
+
+.span-color {
+    color: rgb(133, 133, 2);
 }
-.footer2 h3{
+
+.footer2 h3 {
     text-transform: uppercase;
     color: rgb(65, 125, 95)
 }
-.footer-btn{
+
+.footer-btn {
     padding: 12px;
     font-size: 17px;
     background-color: gold;
     border-radius: 8px;
     border: none;
 }
-.first-detail{
- padding: 40px;
-   margin-top: 20px;
-   border-bottom: 2px solid goldenrod;
-   
+
+.first-detail {
+    padding: 40px;
+    margin-top: 10px;
+    border-bottom: 2px solid goldenrod;
+    width: 70%;
+    margin-left: 120px;
+
 }
-.first-detail h1{
-    color: rgb(164, 164, 7);
-   
+
+.first-detail h1 {
+    color: rgb(133, 133, 2);
+    /* margin-bottom: 15px; */
+
 }
-.second-details{
+
+.second-details {
     margin: 0;
     display: flex;
     width: 70%;
-    justify-content:space-evenly;
-   margin: 0 auto;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
 }
-.second-details p{
-  
+
+.second-details p {
+    margin: 3px;
     font-size: 17px;
-   
-   
+
+
 }
-.social-media{
+
+.social-media {
     display: flex;
-   gap: 10px;
-   font-size: 25px;
-   margin-top: -25px;
+    gap: 10px;
+    font-size: 25px;
+    margin-top: -8px;
 }

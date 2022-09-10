@@ -7,12 +7,13 @@ import { faHeart} from '@fortawesome/free-solid-svg-icons'
 const Meal = (props) => {
     
     const {strCategory,strCategoryThumb,strCategoryDescription} = props.meal
-    // const {increaseHandler} = props
-    const {seeItemHandler} = props
+    const {seeItemHandler} = props;
+    const {addToFavorite,favId} = props;
+
   
-      const clickLikedBtn =()=>{
-        document.getElementById('heart').style.backgroundColor = 'red'
-      }
+      // const clickLikedBtn =()=>{
+      //   document.getElementById('heart').style.backgroundColor = 'red'
+      // }
     return (
         <div className='meal-div'>
              <img src={strCategoryThumb} alt="" />
@@ -22,7 +23,7 @@ const Meal = (props) => {
            <div className='detail'>
            <p>Price: $450</p>
            <button onClick={()=>seeItemHandler(props.meal)}>See Items</button>
-           <p> <FontAwesomeIcon icon={faHeart} onClick={()=>clickLikedBtn} id="heart"></FontAwesomeIcon > </p>
+           <p> <FontAwesomeIcon className={ favId.includes(props.meal._id)?'heartBtn': ''} onClick={()=>addToFavorite(props.meal._id)} icon={faHeart} id="heart"></FontAwesomeIcon > </p>
            </div>
            </div>
         </div>

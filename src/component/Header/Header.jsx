@@ -2,8 +2,9 @@
 import './Header.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSearch, faUser,faHeart} from '@fortawesome/free-solid-svg-icons'
-const Header = () => {
-   
+const Header = (props) => {
+   const {favorite} = props; 
+console.log(favorite.length)
     return (
         <div className='header'>
             <nav className='navbar'>
@@ -16,7 +17,7 @@ const Header = () => {
             <a href="/contact">Contact</a>
             <a href="/"> <FontAwesomeIcon icon={faSearch}></FontAwesomeIcon></a>
             <a href="/"> <FontAwesomeIcon icon={faUser}></FontAwesomeIcon> </a>
-            <a href="/"> <FontAwesomeIcon icon={faHeart} className="icon" ></FontAwesomeIcon> </a>
+            <a href="/"> <FontAwesomeIcon  icon={faHeart}  className="icon" >  </FontAwesomeIcon>  { favorite.length>0? <sup>{favorite.length}</sup> : ''} </a>
             </div>
            </nav>
         </div>
